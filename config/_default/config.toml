@@ -1,4 +1,4 @@
-baseurl = "https://doks.netlify.app/"
+baseurl = "https://docs-bohr-io.bohr.io/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
