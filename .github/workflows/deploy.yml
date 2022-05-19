@@ -8,14 +8,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run Hyas test script
-        run: npm test
-
-      - name: Build production website
-        run: npm run build
-
       - name: Deploy
         uses: bohr-io/action@main
