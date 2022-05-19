@@ -1,6 +1,6 @@
 ---
-title: "Commands2"
-description: "Doks comes with commands for common tasks2."
+title: "Commands"
+description: "Doks comes with commands for common tasks."
 lead: "Doks comes with commands for common tasks."
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
