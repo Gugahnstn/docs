@@ -11,5 +11,5 @@ menu:
     parent: "lorem"
     identifier: "ipsum"
 weight: 999
-toc: true
+toc: false
 ---

@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "help"
 weight: 620
-toc: true
+toc: false
 ---
 
 ## Problems updating npm packages

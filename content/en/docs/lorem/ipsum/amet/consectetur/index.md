@@ -10,5 +10,5 @@ menu:
   docs:
     parent: "amet"
 weight: 730
-toc: true
+toc: false
 ---

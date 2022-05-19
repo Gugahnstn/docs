@@ -11,5 +11,5 @@ menu:
     parent: "ipsum"
     identifier: "amet"
 weight: 999
-toc: true
+toc: false
 ---

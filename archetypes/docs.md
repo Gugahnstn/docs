@@ -10,5 +10,5 @@ menu:
   docs:
     parent: ""
 weight: 999
-toc: true
+toc: false
 ---

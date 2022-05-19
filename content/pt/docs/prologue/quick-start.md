@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "prologue"
 weight: 110
-toc: true
+toc: false
 ---
 
 ## Requirements

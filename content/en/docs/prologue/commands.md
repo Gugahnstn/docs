@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "prologue"
 weight: 130
-toc: true
+toc: false
 ---
 
 {{< alert icon="💡" text="You can change the commands in the scripts section of `./package.json`." />}}

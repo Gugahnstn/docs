@@ -11,5 +11,5 @@ menu:
   {{ .Section }}:
     parent: "lorem"
 weight: 100
-toc: true
+toc: false
 ---

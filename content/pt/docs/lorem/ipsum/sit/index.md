@@ -10,5 +10,5 @@ menu:
   docs:
     parent: "ipsum"
 weight: 710
-toc: true
+toc: false
 ---
