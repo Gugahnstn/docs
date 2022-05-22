@@ -1,4 +1,4 @@
-baseurl = "https://docs-bohr-io.bohr.io/"
+baseurl = "https://docs.bohr.io/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
