@@ -2,7 +2,7 @@
 
 ## Intro
 
-[bohr.io](https://bohr.io/) is a free fullstack `deploy` platform focused on **developer experience**.
+[bohr.io](https://bohr.io/) is a free fullstack deploy platform focused on **developer experience**.
 
 Here you can host for free your projects, websites, blogs, landing pages, e-commerces, APIs, platforms or any other web application.
 
