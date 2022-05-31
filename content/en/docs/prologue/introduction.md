@@ -1,58 +1,69 @@
----
-title: "Introduction"
-description: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
-lead: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
-date: 2020-10-06T08:48:57+00:00
-lastmod: 2020-10-06T08:48:57+00:00
-draft: false
-images: []
-menu:
-  docs:
-    parent: "prologue"
-weight: 100
-toc: false
----
+# The best deploy experience
 
-## Get started
+## Intro
 
-There are two main ways to get started with Doks:
+[bohr.io](https://bohr.io/) is a free fullstack `deploy` platform focused on **developer experience**.
 
-### Tutorial
+Here you can host for free your projects, websites, blogs, landing pages, e-commerces, APIs, platforms or any other web application.
 
-{{< alert icon="👉" text="The Tutorial is intended for novice to intermediate users." />}}
+Like Github, bohr.io is being built on bohr.io. It means that **there are no limits to what you can build here** - from small projects to large platforms with high volume of access. 
 
-Step-by-step instructions on how to start a new Doks project. [Tutorial →](https://getdoks.org/tutorial/introduction/)
+## Technology
 
-### Quick Start
+bohr.io is built with the most advanced infrastructure technologies. We are 100% **serverless** and much of the platform runs directly on the **edge**, enabling the experience with the lowest possible latency. 
 
-{{< alert icon="👉" text="The Quick Start is intended for intermediate to advanced users." />}}
+For example: if you now run `npx bohr` in your terminal, bohr.io raises a local development server and automatically creates a tunnel so you can share an external URL pointing to your localhost. This tunnel will be created on the edge server closest to you.
 
-One page summary of how to start a new Doks project. [Quick Start →]({{< relref "quick-start" >}})
+_**Serverless computing powered by AWS, and edge computing powered by Cloudflare, make bohr.io auto-scalable, as so all the applications hosted here**_.
 
-## Go further
+## Developer Experience
 
-Recipes, Reference Guides, Extensions, and Showcase.
+**bohr.io is fully integrated with Github**. When you click *Use this template*, bohr.io is automatically triggered from **Github Actions**, builds and deploys a new environment and makes it available directly on Github:
 
-### Recipes
+[PRINTS from GITHUB HERE]
 
-Get instructions on how to accomplish common tasks with Doks. [Recipes →](https://getdoks.org/docs/recipes/project-configuration/)
+## Supported Languages
 
-### Reference Guides
+## Supported Frameworks
 
-Learn how to customize Doks to fully make it your own. [Reference Guides →](https://getdoks.org/docs/reference-guides/security/)
 
-### Extensions
+## Features
 
-Get instructions on how to add even more to Doks. [Extensions →](https://getdoks.org/docs/extensions/breadcrumb-navigation/)
+ - Envs
+ - Authenticação
+ - Tunel
+ - Built-in CMS
 
-### Showcase
+## Configuration
 
-See what others have build with Doks. [Showcase →](https://getdoks.org/showcase/electric-blocks/)
+ - Build commands
+ - Runtimes
 
-## Contributing
+## Community
 
-Find out how to contribute to Doks. [Contributing →](https://getdoks.org/docs/contributing/how-to-contribute/)
+## Testing a quote
 
-## Help
+> _**bohr.io is built with the most advanced infrastructure technologies. We are 100% serverless and much of the platform runs directly on the edge, enabling the experience with the lowest possible latency**_ - Lucas Boemeke, CTO at bohr.io
 
-Get help on Doks. [Help →]({{< relref "how-to-update" >}})
+## Usage
+
+```
+name: bohr.io deploy
+on: push
+permissions: write-all
+jobs:
+  deploy:
+    name: Deploy on bohr.io
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: bohr-io/action@main	  
+```
+
+## Testing a table
+
+| First header  | Second header | 
+| :---: | :---: |
+| Content cell  | Content cell  |
+| Content cell  | Content cell  |
+| Content cell  | Content cell  |
